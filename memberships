@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Embedded Style Sheet</title>
+<style> 
+ body {background-color: black;
+  color:white;
+  }
+      
+
+  
+    h1  {
+       text-align: center;
+       font-size: 30pt;
+       color: white;
+       margin-bottom: 5px;
+     
+    }
+    
+    table {
+       margin:50px;
+       width: 290px;
+      text-align:center;
+      color:white;
+      
+    }
+    
+    th {
+       padding: 3px;
+    }
+    
+    td {
+       padding-left: 8px;
+       padding-right: 8px;
+       border: 3px solid white;
+     
+    }
+    
+    #trHeader {
+      
+       color: white;
+    }
+    
+    .centerCell {
+       text-align: center;
+    }
+  h2{
+    text-align:center;
+    font-size:30pt
+  }
+  p{
+    font-size:15pt
+  }
+  h3{
+    font-size:20pt
+  }
+ </style>
+ </head>
+ <body>
+
+ <div>
+ <h1>Memberships</h1>
+
+ <table>
+   <tr id="trHeader">
+     <td>Membership</td>
+     <td>What you get</td>
+     <td>Cost per Month</td>
+   </tr>
+   <tr>
+     <td>Bronze</td>
+     <td class="centerCell">Access to all equipment</td>
+     <td>$12.99</td>
+   </tr>
+   <tr>
+     <td>Silver</td>
+     <td class="centerCell">Access to all equipment, classes, and trainers</td>
+     <td>$17.99</td>
+   </tr>
+   <tr>
+     <td>Gold</td>
+     <td class="centerCell">Acess to everything and you can bring a guest</td>
+     <td>$21.99</td>
+   </tr>
+   <tr>
+    
+   </tr>
+   
+ </table>
+   <h2> Trainers</h2>
+   <h3>Award winning trainers</h3>
+   <p> Adam Donovan- 10 year veteran in all forms of lifting<br>
+     Jake Kaiser- Best yoga instructer in the business<br>
+Antonio Capelo- Best trainer for heavy lifting<br>
+     Brandon Tang- Best trainer for beginner lifters</p>
+     
+ </div>
+ </body>
+ </html>
